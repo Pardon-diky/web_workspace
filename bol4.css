@@ -119,14 +119,14 @@
     display: flex;
     gap: 10px;
     justify-content: center;
-    margin-top: 10px; /* 선과 이미지 사이 간격 */
+    margin-top: 10px; 
 }
 
 .footer-img {
     width: 30px;
     height: 30px;
-    object-fit: cover;  /* 이미지 비율 유지 */
-    border-radius: 5px; /* 모서리 둥글게 */
+    object-fit: cover;  
+    border-radius: 5px; 
 }
 
 
