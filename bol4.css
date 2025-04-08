@@ -32,18 +32,34 @@
     height: 200px;
 }
 
-.notice {
+.notice_box {
     background: #A8B9E0;
     width: 358px;
     height: 40px;
-    display: inline-block;
-    border-radius: 10px;
-    text-decoration: none;
-    margin: 30px 16px;
-    color: white;
-    font-size: 16px;
-
+    margin-left: 16px;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
 }
+
+.notice {
+    color: white;
+    padding-left: 30px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.notice1 {
+    color: #FEF5A2;
+    font-size: 20px;
+    padding-right: 30px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
 
 .bol4 {
     background: url("images/bol4.jpg");
@@ -67,8 +83,14 @@
 .day2__item {
     text-align: center;
     color: white;
-    font-size: 12px;
+    font-size: 16px;
     margin: 0;
+    padding-top: 35px;
+}
+
+.hr1 {
+    width: 326px;
+    color: white;
 }
 
 .day2__item2 {
@@ -85,25 +107,43 @@
     background: #A8B9E0;
     width: 390px;
     height: 199px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
+
+.image-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px; /* 선과 이미지 사이 간격 */
+}
+
+.footer-img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;  /* 이미지 비율 유지 */
+    border-radius: 5px; /* 모서리 둥글게 */
+}
+
 
 .depth {
     color: #FEF5A2;
     font-size: 16px;
     text-align: center;
     position: relative;
-    top: 20px;
+    top: 5px;
 }
 
-.hr1 {
-    width: 326px;
-    color: white;
-}
+
 
 .hr2 {
     width: 300px;
     position: relative;
-    top: 80px;
+    top: 05px;
     color: #FEF5A2;
 }
 
@@ -112,5 +152,6 @@
     position: relative;
     color: white;
     font-size: 14px;
+    top: 5px;
 }
 
